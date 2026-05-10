@@ -1,0 +1,962 @@
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+
+    <meta property="og:title" content="Mi Cumpleaños Sarahí">
+    <meta property="og:description" content="¡Te invito a celebrar conmigo este día tan especial!">
+    <meta property="og:image" content="https://invitardigital.github.io/Sarahi/f.png">
+    <meta property="og:url" content="https://invitardigital.github.io/Sarahi">
+
+   
+    <title>Mi cumpleaños Sarahí </title>
+    <!-- Tailwind via CDN (Para mantenerlo simple por ahora) -->
+    <script src="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.es.OS00fMYcnZ4.O/m=gapi_iframes/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-dabgPa9BlJ6208Qme78jFzduE5Q/cb=gapi.loaded_0?le=scs" async=""></script><script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <!-- Wedding Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;family=Montserrat:wght@300;400;600&amp;family=Lato:wght@300;400;700&amp;family=Dancing+Script:wght@400;700&amp;family=Cinzel:wght@400;700&amp;family=Allura&amp;family=Pinyon+Script&amp;family=Tangerine:wght@400;700&amp;family=Cormorant+Garamond:wght@300;400;600&amp;family=Parisienne&amp;family=Alex+Brush&amp;family=Sacramento&amp;family=WindSong&amp;family=Italianno&amp;family=Monsieur+La+Doulaise&amp;family=Herr+Von+Muellerhoff&amp;family=Ephesis&amp;family=Miss+Fajardose&amp;family=Meow+Script&amp;display=swap" rel="stylesheet">
+    <!-- Social & Fun Fonts (New Magic Text) -->
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;700&amp;family=Bangers&amp;family=Henny+Penny&amp;family=Jolly+Lodger&amp;family=Chewy&amp;family=Cherry+Bomb+One&amp;family=Chicle&amp;family=Unkempt:wght@400;700&amp;family=Luckiest+Guy&amp;family=Lacquer&amp;family=Englebert&amp;family=Mouse+Memoirs&amp;family=Pacifico&amp;family=Dekko&amp;family=Diphylleia&amp;family=Lemon&amp;family=Montez&amp;family=Ms+Madi&amp;family=Rammetto+One&amp;family=Walter+Turncoat&amp;family=Kaushan+Script&amp;family=Original+Surfer&amp;family=Bungee+Spice&amp;family=Piedra&amp;family=Hanalei+Fill&amp;family=Chelsea+Market&amp;family=Slackey&amp;family=Love+Ya+Like+A+Sister&amp;family=Grandstander:wght@400;900&amp;family=Happy+Monkey&amp;family=Gochi+Hand&amp;family=RocknRoll+One&amp;family=Kavoon&amp;family=Hachi+Maru+Pop&amp;family=Ranchers&amp;family=Give+You+Glory&amp;display=swap" rel="stylesheet">
+
+    
+
+    <script type="module" src="index-DVa-3ub8.js"></script>
+    <link rel="modulepreload" href="react-vendor-DKjPGXcX.js">
+    <link rel="modulepreload" href="firebase-vendor-DZr8kQQc.js">
+    <link href="style.css">
+
+    <link rel="modulepreload" href="PublicInvitationSocial-FIutViTc.js">
+    <link rel="modulepreload" href="invitation.service-B_ljdasu.js">
+    <link rel="modulepreload" href="MagicalLoading-DlcZwrnf.js">
+    <link rel="modulepreload" href="BackgroundRenderer-DCdF7iML.js">
+    <link rel="modulepreload" href="ui-vendor-ta3bEDVn.js">
+    <link rel="modulepreload" href="guest.service-DA0ztGM7.js">
+    <link rel="modulepreload" href="ElementRendererSocial-D9H9rC0a.js">
+    <link rel="modulepreload" href="TimelineModal-DrxTVGwE.js">
+    <link rel="stylesheet" href="TimelineModal-CmOu034S.css">
+    <link rel="modulepreload" href="EntryOverlaySocial-C5BtDs8f.js">
+    <link rel="modulepreload" href="usePublicInvitation-DYcI3SiR.js">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countdown/2.6.0/countdown.min.js"></script>
+
+</head>
+
+
+<body class="bg-slate-900 ">
+
+<style>
+   
+#root{
+    background-image: url('fondo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
+
+#countdown div p{
+    line-height: 1px;
+}
+        
+.mr_5{
+   margin-right: 5px;
+}
+
+.time-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.time-container span {
+    font-size: 30px;
+    font-weight: bold;
+}
+.time-container p {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+</style>
+
+
+   <div id="root">
+      <div class="w-full h-screen relative flex flex-col items-center justify-center overflow-hidden">
+         <div class="relative shadow-2xl overflow-hidden bg-transparent" style="width: 390px; height: 100%; max-width: 390px;  transform-origin: center top;">
+            
+            
+            
+            <div class="w-full h-full relative scrollbar-hide  overflow-y-auto overflow-x-hidden">
+
+
+               <div class="relative w-full">
+
+
+                  
+                  <div class="relative w-full z-10" style="height: auto">
+                     <div class="absolute" style="left: 65.5px; top: 1.75887px; width: 250px; height: 150px; transform: rotate(0deg); z-index: 1; opacity: 1; pointer-events: none;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 1s ease-out 0s 1 normal both running fadeIn;">
+                           <div style="width: 100%; height: 100%;">
+                              <div class="w-full h-full relative group overflow-visible pointer-events-none">
+                                 <div style="width: 100%; height: 100%; transform: rotate(0deg);">
+                                    <div style="width: 100%; height: 100%; overflow: visible; position: relative; pointer-events: none; --laser-opacity: 0.8; --laser-opacity-dim: 0.32000000000000006;">
+                                       <style>
+                                          /* Animación que usa variables CSS para opacidad dinámica */
+                                          @keyframes laser-scan-dynamic { 
+                                          0% { 
+                                          transform: translateX(-50%) rotate(calc(var(--base-angle) - var(--swing))); 
+                                          opacity: var(--laser-opacity-dim);
+                                          height: var(--base-length);
+                                          } 
+                                          50% { 
+                                          opacity: var(--laser-opacity);
+                                          height: calc(var(--base-length) * 1.2);
+                                          }
+                                          100% { 
+                                          transform: translateX(-50%) rotate(calc(var(--base-angle) + var(--swing))); 
+                                          opacity: var(--laser-opacity-dim);
+                                          height: var(--base-length);
+                                          } 
+                                          }
+                                          @keyframes source-pulse {
+                                          0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.8; }
+                                          50% { transform: translate(-50%, -50%) scale(1.2); opacity: 1; }
+                                          }
+                                       </style>
+                                       <div style="position: absolute; top: 0px; left: 50%; width: 40px; height: 40px; border-radius: 50%; background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 40%, transparent 70%); z-index: 20; animation: 0.5s ease 0s infinite alternate none running source-pulse; mix-blend-mode: screen;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.09993px; transform-origin: center top; --base-angle: -60.03492011606308deg; --swing: 20.63615753518954deg; --base-length: 136.85444252632328%; height: 136.854%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.12233s ease-in-out -0.724244s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-60.0349deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.83038px; transform-origin: center top; --base-angle: -53.348181269884deg; --swing: 16.530986674594914deg; --base-length: 191.2954844173321%; height: 191.295%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.06885s ease-in-out -0.799899s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-53.3482deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.60185px; transform-origin: center top; --base-angle: -42.695407195077735deg; --swing: 14.499802412795525deg; --base-length: 146.0298208150407%; height: 146.03%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.19792s ease-in-out -1.24982s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-42.6954deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.12171px; transform-origin: center top; --base-angle: -40.83309672450976deg; --swing: 25.34918017678559deg; --base-length: 174.67979325484617%; height: 174.68%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.07319s ease-in-out -0.110853s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-40.8331deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.11429px; transform-origin: center top; --base-angle: -32.49548613214396deg; --swing: 17.536316903436443deg; --base-length: 138.4885229232421%; height: 138.489%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.30837s ease-in-out -0.737301s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-32.4955deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.9303px; transform-origin: center top; --base-angle: -22.8558471994438deg; --swing: 17.361160095548353deg; --base-length: 158.6354352360265%; height: 158.635%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.32574s ease-in-out -0.415399s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-22.8558deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.9329px; transform-origin: center top; --base-angle: -11.179528056341683deg; --swing: 29.520333776288787deg; --base-length: 182.09855029072483%; height: 182.099%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.9924s ease-in-out -3.11246s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-11.1795deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.679px; transform-origin: center top; --base-angle: -7.92246588955103deg; --swing: 19.33818038350287deg; --base-length: 169.51199161259638%; height: 169.512%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.82258s ease-in-out -3.22341s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-7.92247deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.0251px; transform-origin: center top; --base-angle: 1.7177765495758512deg; --swing: 16.75897436162395deg; --base-length: 192.3006906538996%; height: 192.301%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.13305s ease-in-out -3.70338s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(1.71778deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.61069px; transform-origin: center top; --base-angle: 8.135012503145385deg; --swing: 13.493726936211331deg; --base-length: 198.247394513503%; height: 198.247%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.38564s ease-in-out -0.397869s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(8.13501deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.44103px; transform-origin: center top; --base-angle: 19.169244927430753deg; --swing: 26.175640535346666deg; --base-length: 170.45601042894765%; height: 170.456%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.58822s ease-in-out -2.41443s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(19.1692deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.52591px; transform-origin: center top; --base-angle: 17.605411636532523deg; --swing: 17.01267779007797deg; --base-length: 129.9004233007027%; height: 129.9%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.37281s ease-in-out -3.94294s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(17.6054deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.02727px; transform-origin: center top; --base-angle: 33.1142887489639deg; --swing: 22.494184050606357deg; --base-length: 137.67349205848913%; height: 137.673%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.15927s ease-in-out -3.40849s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(33.1143deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.06423px; transform-origin: center top; --base-angle: 39.14089772630817deg; --swing: 27.87330015960859deg; --base-length: 122.82197309411464%; height: 122.822%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.62653s ease-in-out -1.96073s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(39.1409deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.3016px; transform-origin: center top; --base-angle: 48.65437792079215deg; --swing: 13.03237487302436deg; --base-length: 134.5167548310133%; height: 134.517%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.27557s ease-in-out -0.408903s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(48.6544deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.42571px; transform-origin: center top; --base-angle: 52.466552689939356deg; --swing: 20.381989559858084deg; --base-length: 188.6184529297036%; height: 188.618%; background: linear-gradient(rgb(255, 255, 255) 10%, transparent 100%); box-shadow: rgb(255, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.48969s ease-in-out -3.5105s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(52.4666deg); pointer-events: none; z-index: 1;"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 15px; top: 741.106px; width: 96px; height: 88.788px; transform: rotate(0deg); z-index: 2; opacity: 0.5; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; overflow: hidden; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 0.5; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(0, 0, 0);"><img alt="element" draggable="false" 
+                                src="start2.png" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 153px; top: 468.647px; width: 96px; height: 88.788px; transform: rotate(0deg); z-index: 3; opacity: 0.5; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 1s ease-out 0s 1 normal both running fadeIn, 2s ease-in-out 1s infinite normal none running spinSlow;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; overflow: hidden; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 0.5; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(0, 0, 0);"><img alt="element" draggable="false" 
+                                src="start.png" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 147px; top: 250.241px; width: 96px; height: 88.788px; transform: rotate(0deg); z-index: 4; opacity: 0.5; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 1s ease-out 0s 1 normal both running fadeIn, 2s ease-in-out 1s infinite normal none running spinSlow;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; overflow: hidden; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 0.5; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(0, 0, 0);"><img alt="element" draggable="false" 
+                                src="start.png" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 279px; top: 539.518px; width: 96px; height: 86.4823px; transform: rotate(0deg); z-index: 5; opacity: 0.6; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 1s ease-out 0s 1 normal both running fadeIn, 2s ease-in-out 1s infinite normal none running heartbeat;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; overflow: hidden; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 0.6; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(0, 0, 0);"><img alt="element" draggable="false" 
+                                src="coraza.png" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 20px; top: 418.759px; width: 96px; height: 86.4823px; transform: rotate(0deg); z-index: 6; opacity: 0.6; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 1s ease-out 0s 1 normal both running fadeIn, 2s ease-in-out 1s infinite normal none running heartbeat;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; overflow: hidden; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 0.6; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(0, 0, 0);"><img alt="element" draggable="false" 
+                                src="coraza.png" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 279px; top: 163.759px; width: 96px; height: 86.4823px; transform: rotate(0deg); z-index: 7; opacity: 0.6; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 1s ease-out 0s 1 normal both running fadeIn, 2s ease-in-out 1s infinite normal none running heartbeat;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; overflow: hidden; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 0.6; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(0, 0, 0);"><img alt="element" draggable="false" 
+                                src="coraza.png" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 15px; top: 33.5177px; width: 96px; height: 86.4823px; transform: rotate(0deg); z-index: 8; opacity: 0.6; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 1s ease-out 0s 1 normal both running fadeIn, 2s ease-in-out 1s infinite normal none running heartbeat;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; overflow: hidden; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 0.6; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(0, 0, 0);"><img alt="element" draggable="false" 
+                                src="coraza.png" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 17.5px; top: 548.518px; width: 96px; height: 86.4823px; transform: rotate(0deg); z-index: 9; opacity: 0.6; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 1s ease-out 0s 1 normal both running fadeIn, 2s ease-in-out 1s infinite normal none running heartbeat;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; overflow: hidden; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 0.6; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(0, 0, 0);"><img alt="element" draggable="false" 
+                                src="coraza.png" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: -41px; top: 7px; width: 250px; height: 150px; transform: rotate(0deg); z-index: 10; opacity: 1; pointer-events: none;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 1s ease-out 0s 1 normal both running fadeIn;">
+                           <div style="width: 100%; height: 100%;">
+                              <div class="w-full h-full relative group overflow-visible pointer-events-none">
+                                 <div style="width: 100%; height: 100%; transform: rotate(0deg);">
+                                    <div style="width: 100%; height: 100%; pointer-events: none; position: relative; overflow: visible;">
+                                       <style>
+                                          @keyframes spotlight-swing {
+                                          0% { transform: translateX(-50%) rotate(-15deg); }
+                                          100% { transform: translateX(-50%) rotate(15deg); }
+                                          }
+                                          @keyframes color-shift-neon {
+                                          0% { background: linear-gradient(to bottom, #ff00ff 0%, transparent 100%); }
+                                          33% { background: linear-gradient(to bottom, #00ffff 0%, transparent 100%); }
+                                          66% { background: linear-gradient(to bottom, #ffff00 0%, transparent 100%); }
+                                          100% { background: linear-gradient(to bottom, #ff00ff 0%, transparent 100%); }
+                                          }
+                                       </style>
+                                       <div style="position: absolute; top: -10px; left: 50%; transform: translateX(-50%); width: 40px; height: 20px; border-radius: 50%; background-color: rgb(245, 107, 201); box-shadow: rgb(245, 107, 201) 0px 0px 20px 5px; opacity: 1; z-index: 9999;"></div>
+                                       <div style="position: absolute; top: 0px; left: 50%; transform-origin: center top; width: 50%; height: 200%; background: linear-gradient(rgb(245, 107, 201) 0%, transparent 100%); clip-path: polygon(40% 0%, 60% 0%, 100% 100%, 0% 100%); opacity: 0.4; mix-blend-mode: normal; filter: blur(10px); animation: 2.75s ease-in-out 0s infinite alternate none running spotlight-swing, 8s linear 0s infinite normal none running color-shift-neon; transform: translateX(-50%); z-index: 1;"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 177px; top: 7px; width: 226px; height: 150px; transform: rotate(0deg); z-index: 11; opacity: 1; pointer-events: none;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 1s ease-out 0s 1 normal both running fadeIn;">
+                           <div style="width: 100%; height: 100%;">
+                              <div class="w-full h-full relative group overflow-visible pointer-events-none">
+                                 <div style="width: 100%; height: 100%; transform: rotate(0deg);">
+                                    <div style="width: 100%; height: 100%; pointer-events: none; position: relative; overflow: visible;">
+                                       <style>
+                                          @keyframes spotlight-swing {
+                                          0% { transform: translateX(-50%) rotate(-15deg); }
+                                          100% { transform: translateX(-50%) rotate(15deg); }
+                                          }
+                                          @keyframes color-shift-neon {
+                                          0% { background: linear-gradient(to bottom, #ff00ff 0%, transparent 100%); }
+                                          33% { background: linear-gradient(to bottom, #00ffff 0%, transparent 100%); }
+                                          66% { background: linear-gradient(to bottom, #ffff00 0%, transparent 100%); }
+                                          100% { background: linear-gradient(to bottom, #ff00ff 0%, transparent 100%); }
+                                          }
+                                       </style>
+                                       <div style="position: absolute; top: -10px; left: 50%; transform: translateX(-50%); width: 40px; height: 20px; border-radius: 50%; background-color: rgb(169, 107, 245); box-shadow: rgb(169, 107, 245) 0px 0px 20px 5px; opacity: 1; z-index: 9999;"></div>
+                                       <div style="position: absolute; top: 0px; left: 50%; transform-origin: center top; width: 50%; height: 200%; background: linear-gradient(rgb(169, 107, 245) 0%, transparent 100%); clip-path: polygon(40% 0%, 60% 0%, 100% 100%, 0% 100%); opacity: 0.6; mix-blend-mode: normal; filter: blur(10px); animation: 3.25s ease-in-out 0s infinite alternate none running spotlight-swing, 8s linear 0s infinite normal none running color-shift-neon; transform: translateX(-50%); z-index: 1;"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: -124.5px; top: 261px; width: 310px; height: 85px; transform: rotate(-90deg); z-index: 12; opacity: 1; pointer-events: none;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 1s ease-out 0s 1 normal both running fadeIn;">
+                           <div style="width: 100%; height: 100%;">
+                              <div class="w-full h-full relative group overflow-visible pointer-events-none">
+                                 <div style="width: 100%; height: 100%; transform: rotate(0deg);">
+                                    <div style="width: 100%; height: 100%; overflow: visible; position: relative; pointer-events: none; --laser-opacity: 0.5; --laser-opacity-dim: 0.2;">
+                                       <style>
+                                          /* Animación que usa variables CSS para opacidad dinámica */
+                                          @keyframes laser-scan-dynamic { 
+                                          0% { 
+                                          transform: translateX(-50%) rotate(calc(var(--base-angle) - var(--swing))); 
+                                          opacity: var(--laser-opacity-dim);
+                                          height: var(--base-length);
+                                          } 
+                                          50% { 
+                                          opacity: var(--laser-opacity);
+                                          height: calc(var(--base-length) * 1.2);
+                                          }
+                                          100% { 
+                                          transform: translateX(-50%) rotate(calc(var(--base-angle) + var(--swing))); 
+                                          opacity: var(--laser-opacity-dim);
+                                          height: var(--base-length);
+                                          } 
+                                          }
+                                          @keyframes source-pulse {
+                                          0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.8; }
+                                          50% { transform: translate(-50%, -50%) scale(1.2); opacity: 1; }
+                                          }
+                                       </style>
+                                       <div style="position: absolute; top: 0px; left: 50%; width: 40px; height: 40px; border-radius: 50%; background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(255, 0, 255) 40%, transparent 70%); z-index: 20; animation: 0.5s ease 0s infinite alternate none running source-pulse; mix-blend-mode: screen;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.19895px; transform-origin: center top; --base-angle: -58.66104104963542deg; --swing: 19.317436319824566deg; --base-length: 171.2350132482402%; height: 171.235%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.59893s ease-in-out -3.64665s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-58.661deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.84243px; transform-origin: center top; --base-angle: -51.85945027202165deg; --swing: 24.272186012535983deg; --base-length: 182.8642279531245%; height: 182.864%; background: linear-gradient(rgb(0, 255, 255) 10%, transparent 100%); box-shadow: rgb(0, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.05105s ease-in-out -3.38131s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-51.8595deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.10677px; transform-origin: center top; --base-angle: -43.52902105064378deg; --swing: 26.310503209414126deg; --base-length: 154.23781312484476%; height: 154.238%; background: linear-gradient(rgb(255, 255, 0) 10%, transparent 100%); box-shadow: rgb(255, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 4.89208s ease-in-out -2.5328s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-43.529deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.17067px; transform-origin: center top; --base-angle: -41.18695996008877deg; --swing: 27.860786191986833deg; --base-length: 128.35575502835073%; height: 128.356%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.80916s ease-in-out -4.97164s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-41.187deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.94275px; transform-origin: center top; --base-angle: -30.719888915779492deg; --swing: 21.834359275266014deg; --base-length: 199.07024925612882%; height: 199.07%; background: linear-gradient(rgb(0, 255, 0) 10%, transparent 100%); box-shadow: rgb(0, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 5.50961s ease-in-out -0.855493s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-30.7199deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.80818px; transform-origin: center top; --base-angle: -19.63977025176296deg; --swing: 21.84748791153108deg; --base-length: 130.22367853589452%; height: 130.224%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.50375s ease-in-out -3.43987s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-19.6398deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.02715px; transform-origin: center top; --base-angle: -19.611665169747273deg; --swing: 27.355909502306204deg; --base-length: 148.6881123933013%; height: 148.688%; background: linear-gradient(rgb(0, 255, 255) 10%, transparent 100%); box-shadow: rgb(0, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.17962s ease-in-out -2.62293s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-19.6117deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.78658px; transform-origin: center top; --base-angle: -9.987856859575714deg; --swing: 21.201100711064285deg; --base-length: 189.0632579516629%; height: 189.063%; background: linear-gradient(rgb(255, 255, 0) 10%, transparent 100%); box-shadow: rgb(255, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 4.78339s ease-in-out -3.87656s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-9.98786deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.05231px; transform-origin: center top; --base-angle: 4.3252464845704175deg; --swing: 18.04411956838124deg; --base-length: 127.42663963319515%; height: 127.427%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.55807s ease-in-out -2.03226s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(4.32525deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.4652px; transform-origin: center top; --base-angle: 5.007029477226535deg; --swing: 25.296120293238786deg; --base-length: 139.52438738869742%; height: 139.524%; background: linear-gradient(rgb(0, 255, 0) 10%, transparent 100%); box-shadow: rgb(0, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 5.60454s ease-in-out -3.19906s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(5.00703deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.82325px; transform-origin: center top; --base-angle: 18.292891175074516deg; --swing: 29.882318016384225deg; --base-length: 175.61412713663697%; height: 175.614%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.02038s ease-in-out -0.426944s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(18.2929deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.347px; transform-origin: center top; --base-angle: 26.36093613598561deg; --swing: 16.5567577826027deg; --base-length: 144.00672348848306%; height: 144.007%; background: linear-gradient(rgb(0, 255, 255) 10%, transparent 100%); box-shadow: rgb(0, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.56377s ease-in-out -2.93343s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(26.3609deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.34838px; transform-origin: center top; --base-angle: 30.673762730565333deg; --swing: 22.252294654243762deg; --base-length: 136.76791200513156%; height: 136.768%; background: linear-gradient(rgb(255, 255, 0) 10%, transparent 100%); box-shadow: rgb(255, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 4.27232s ease-in-out -3.02077s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(30.6738deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.67507px; transform-origin: center top; --base-angle: 42.48024227657869deg; --swing: 13.700087945125656deg; --base-length: 123.04738451188196%; height: 123.047%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.42885s ease-in-out -3.77551s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(42.4802deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.94575px; transform-origin: center top; --base-angle: 48.501793242303336deg; --swing: 27.8865001640158deg; --base-length: 171.27056229942002%; height: 171.271%; background: linear-gradient(rgb(0, 255, 0) 10%, transparent 100%); box-shadow: rgb(0, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 4.48575s ease-in-out -0.128483s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(48.5018deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.67301px; transform-origin: center top; --base-angle: 57.47173918862846deg; --swing: 23.757793828983285deg; --base-length: 160.27154547126392%; height: 160.272%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.9448s ease-in-out -3.14486s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(57.4717deg); pointer-events: none; z-index: 1;"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 50.5px; top: 41.8995px; width: 296px; height: 97.1005px; transform: rotate(0deg); z-index: 13; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: visible; font-family: HuntersKPop; font-size: 100px; font-weight: bold; line-height: 1.2; letter-spacing: 0px; text-align: center; white-space: pre; margin: 0px; padding: 0px; filter: drop-shadow(rgb(144, 11, 174) 0px 0px 6px);">
+                                 <div style="transform: scale(0.891566); transform-origin: center center; display: flex; flex-direction: column; align-items: center; justify-content: center; white-space: pre; width: max-content; height: auto; max-width: none; line-height: 1; margin: 0px; padding: 0px; box-sizing: border-box;">
+                                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
+                                       <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 0px; padding: 0px;"><span style="color: rgb(255, 255, 255); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(62, 4, 77); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal both running letter-slide, 1.5s ease-in-out 0.6s infinite normal none running letter_party_jump;" 
+                                          class="magic-char">S</span><span style="color: rgb(255, 255, 255); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(62, 4, 77); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.05s 1 normal both running letter-slide, 1.5s ease-in-out 0.65s infinite normal none running letter_party_jump;" 
+                                          class="magic-char">a</span><span style="color: rgb(255, 255, 255); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(62, 4, 77); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.1s 1 normal both running letter-slide, 1.5s ease-in-out 0.7s infinite normal none running letter_party_jump;" 
+                                          class="magic-char">r</span><span style="color: rgb(255, 255, 255); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(62, 4, 77); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s 1 normal both running letter-slide, 1.5s ease-in-out 0.75s infinite normal none running letter_party_jump;" 
+                                          class="magic-char">a</span><span style="color: rgb(255, 255, 255); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(62, 4, 77); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s 1 normal both running letter-slide, 1.5s ease-in-out 0.8s infinite normal none running letter_party_jump;" 
+                                          class="magic-char">h</span><span style="color: rgb(255, 255, 255); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(62, 4, 77); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.25s 1 normal both running letter-slide, 1.5s ease-in-out 0.85s infinite normal none running letter_party_jump;" 
+                                          class="magic-char">i</span></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 30.5px; top: 207px; width: 194px; height: 194px; transform: rotate(0deg); z-index: 14; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 1s ease-out 0s 1 normal both running fadeIn;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; overflow: hidden; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 1; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(0, 0, 0);"><img alt="element" draggable="false" 
+                                src="k1.gif" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 171.5px; top: 125.125px; width: 176px; height: 77.2683px; transform: rotate(0deg); z-index: 15; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: visible; font-family: Bangers; font-size: 100px; font-weight: bold; line-height: 1.2; letter-spacing: 3px; text-align: center; white-space: pre; margin: 0px; padding: 0px;">
+                                 <div style="transform: scale(0.664151); transform-origin: center center; display: flex; flex-direction: column; align-items: center; justify-content: center; white-space: pre; width: max-content; height: auto; max-width: none; line-height: 1; margin: 0px; padding: 0px; box-sizing: border-box;">
+                                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
+                                       <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 0px; padding: 0px;"><span style="color: rgb(107, 11, 127); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal both running letter_elastic_right, 1.5s ease-in-out 0.6s infinite normal none running letter_jello;" 
+                                          class="magic-char">c</span><span style="color: rgb(107, 11, 127); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.05s 1 normal both running letter_elastic_right, 1.5s ease-in-out 0.65s infinite normal none running letter_jello;" 
+                                          class="magic-char">u</span><span style="color: rgb(107, 11, 127); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.1s 1 normal both running letter_elastic_right, 1.5s ease-in-out 0.7s infinite normal none running letter_jello;" 
+                                          class="magic-char">m</span><span style="color: rgb(107, 11, 127); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s 1 normal both running letter_elastic_right, 1.5s ease-in-out 0.75s infinite normal none running letter_jello;" 
+                                          class="magic-char">p</span><span style="color: rgb(107, 11, 127); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s 1 normal both running letter_elastic_right, 1.5s ease-in-out 0.8s infinite normal none running letter_jello;" 
+                                          class="magic-char">l</span><span style="color: rgb(107, 11, 127); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.25s 1 normal both running letter_elastic_right, 1.5s ease-in-out 0.85s infinite normal none running letter_jello;" 
+                                          class="magic-char">e</span></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 15px; top: 433.5px; width: 360px; height: 98px; transform: rotate(0deg); z-index: 16; opacity: 1; pointer-events: none;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 1s ease-out 0s 1 normal both running fadeIn;">
+                           <div style="width: 100%; height: 100%;">
+                              <div class="w-full h-full relative group overflow-visible pointer-events-none">
+                                 <div style="width: 100%; height: 100%; transform: rotate(0deg);">
+                                    <div style="--neon-color: #ffffff; --neon-opacity: 0.8; --neon-opacity-dim: 0.48; width: 100%; height: 100%; position: relative; overflow: hidden;">
+                                       <style>
+                                          @keyframes neon-pulse {
+                                          0%, 100% { 
+                                          opacity: var(--neon-opacity); 
+                                          box-shadow: 0 0 10px var(--neon-color), inset 0 0 10px var(--neon-color); 
+                                          }
+                                          50% { 
+                                          opacity: var(--neon-opacity-dim); 
+                                          box-shadow: 0 0 20px var(--neon-color), inset 0 0 20px var(--neon-color); 
+                                          }
+                                          }
+                                       </style>
+                                       <div style="position: absolute; inset: 10px; border-radius: 20px; border: 4px solid rgb(255, 255, 255); animation: 1.5s ease-in-out 0s infinite normal none running neon-pulse; pointer-events: none;"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 33.5px; top: 480px; width: 323px; height: 41px; transform: rotate(0deg); z-index: 17; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 2s ease-in-out 0s infinite normal none running heartbeat;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: visible; font-family: Bangers; font-size: 100px; font-weight: bold; line-height: 1.2; letter-spacing: 0px; text-align: center; white-space: pre; margin: 0px; padding: 0px;">
+                                 <div style="transform: scale(0.398058); transform-origin: center center; display: flex; flex-direction: column; align-items: center; justify-content: center; white-space: pre; width: max-content; height: auto; max-width: none; line-height: 1; margin: 0px; padding: 0px; box-sizing: border-box;">
+                                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
+                                       <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 0px; padding: 0px;"><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal both running letter-slide, 3s ease-in-out 0.6s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">t</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.05s 1 normal both running letter-slide, 3s ease-in-out 0.65s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">e</span><span style="display: inline-block; width: 0.3em;">&nbsp;</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s 1 normal both running letter-slide, 3s ease-in-out 0.75s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">i</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s 1 normal both running letter-slide, 3s ease-in-out 0.8s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">n</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.25s 1 normal both running letter-slide, 3s ease-in-out 0.85s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">v</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s 1 normal both running letter-slide, 3s ease-in-out 0.9s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">i</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.35s 1 normal both running letter-slide, 3s ease-in-out 0.95s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">t</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.4s 1 normal both running letter-slide, 3s ease-in-out 1s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">o</span><span style="display: inline-block; width: 0.3em;">&nbsp;</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.5s 1 normal both running letter-slide, 3s ease-in-out 1.1s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">a</span><span style="display: inline-block; width: 0.3em;">&nbsp;</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.6s 1 normal both running letter-slide, 3s ease-in-out 1.2s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">m</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.65s 1 normal both running letter-slide, 3s ease-in-out 1.25s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">i</span><span style="display: inline-block; width: 0.3em;">&nbsp;</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.75s 1 normal both running letter-slide, 3s ease-in-out 1.35s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">f</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.8s 1 normal both running letter-slide, 3s ease-in-out 1.4s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">i</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.85s 1 normal both running letter-slide, 3s ease-in-out 1.45s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">e</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.9s 1 normal both running letter-slide, 3s ease-in-out 1.5s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">s</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.95s 1 normal both running letter-slide, 3s ease-in-out 1.55s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">t</span><span style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 2.5px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 1s 1 normal both running letter-slide, 3s ease-in-out 1.6s infinite normal none running letter_rainbow;" 
+                                          class="magic-char">a</span></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 20px; top: 523px; width: 350px; height: 350px; transform: rotate(0deg); z-index: 18; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 1s ease-out 0s 1 normal both running fadeIn;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; overflow: hidden; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 1; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(0, 0, 0);"><img alt="element" draggable="false" 
+                                src="k2.gif" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 306px; top: 1117.11px; width: 96px; height: 88.788px; transform: rotate(0deg); z-index: 19; opacity: 0.5; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; overflow: hidden; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 0.5; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(0, 0, 0);"><img alt="element" draggable="false" 
+                                src="start.png" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 219px; top: 713px; width: 216px; height: 145px; transform: rotate(90deg); z-index: 20; opacity: 1; pointer-events: none;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div class="w-full h-full relative group overflow-visible pointer-events-none">
+                                 <div style="width: 100%; height: 100%; transform: rotate(0deg);">
+                                    <div style="width: 100%; height: 100%; overflow: visible; position: relative; pointer-events: none; --laser-opacity: 0.5; --laser-opacity-dim: 0.2;">
+                                       <style>
+                                          /* Animación que usa variables CSS para opacidad dinámica */
+                                          @keyframes laser-scan-dynamic { 
+                                          0% { 
+                                          transform: translateX(-50%) rotate(calc(var(--base-angle) - var(--swing))); 
+                                          opacity: var(--laser-opacity-dim);
+                                          height: var(--base-length);
+                                          } 
+                                          50% { 
+                                          opacity: var(--laser-opacity);
+                                          height: calc(var(--base-length) * 1.2);
+                                          }
+                                          100% { 
+                                          transform: translateX(-50%) rotate(calc(var(--base-angle) + var(--swing))); 
+                                          opacity: var(--laser-opacity-dim);
+                                          height: var(--base-length);
+                                          } 
+                                          }
+                                          @keyframes source-pulse {
+                                          0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.8; }
+                                          50% { transform: translate(-50%, -50%) scale(1.2); opacity: 1; }
+                                          }
+                                       </style>
+                                       <div style="position: absolute; top: 0px; left: 50%; width: 40px; height: 40px; border-radius: 50%; background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(255, 0, 255) 40%, transparent 70%); z-index: 20; animation: 0.5s ease 0s infinite alternate none running source-pulse; mix-blend-mode: screen;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.93389px; transform-origin: center top; --base-angle: -56.23704814003911deg; --swing: 10.730751339628437deg; --base-length: 186.29244096569204%; height: 186.292%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.69528s ease-in-out -2.77329s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-56.237deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.23544px; transform-origin: center top; --base-angle: -51.78646796893102deg; --swing: 18.052218717648607deg; --base-length: 193.19085303947372%; height: 193.191%; background: linear-gradient(rgb(0, 255, 255) 10%, transparent 100%); box-shadow: rgb(0, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.13616s ease-in-out -2.0153s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-51.7865deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.01119px; transform-origin: center top; --base-angle: -47.651514094815255deg; --swing: 29.708872782758867deg; --base-length: 140.8332815360631%; height: 140.833%; background: linear-gradient(rgb(255, 255, 0) 10%, transparent 100%); box-shadow: rgb(255, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 5.81431s ease-in-out -1.39378s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-47.6515deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.91115px; transform-origin: center top; --base-angle: -39.998090880591114deg; --swing: 14.128653336616557deg; --base-length: 139.93208441266762%; height: 139.932%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.27061s ease-in-out -2.81316s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-39.9981deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.26012px; transform-origin: center top; --base-angle: -30.316587597542878deg; --swing: 22.68137361269173deg; --base-length: 142.85054160333402%; height: 142.851%; background: linear-gradient(rgb(0, 255, 0) 10%, transparent 100%); box-shadow: rgb(0, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 5.64367s ease-in-out -4.24491s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-30.3166deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.40673px; transform-origin: center top; --base-angle: -24.248568367965724deg; --swing: 19.180090952283663deg; --base-length: 120.44113735583032%; height: 120.441%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.01818s ease-in-out -1.57113s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-24.2486deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.43548px; transform-origin: center top; --base-angle: -11.416753128421519deg; --swing: 29.120811623949912deg; --base-length: 174.83645384068546%; height: 174.836%; background: linear-gradient(rgb(0, 255, 255) 10%, transparent 100%); box-shadow: rgb(0, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.48156s ease-in-out -2.2532s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-11.4168deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.87027px; transform-origin: center top; --base-angle: -4.688212609133792deg; --swing: 11.526705012614546deg; --base-length: 169.88658001953368%; height: 169.887%; background: linear-gradient(rgb(255, 255, 0) 10%, transparent 100%); box-shadow: rgb(255, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 5.7281s ease-in-out -2.23247s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-4.68821deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.04353px; transform-origin: center top; --base-angle: -1.8156125991459229deg; --swing: 24.987888833573756deg; --base-length: 197.90903144166367%; height: 197.909%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.63693s ease-in-out -1.18829s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-1.81561deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.79839px; transform-origin: center top; --base-angle: 5.841363283819287deg; --swing: 14.060942481413015deg; --base-length: 184.60973237349592%; height: 184.61%; background: linear-gradient(rgb(0, 255, 0) 10%, transparent 100%); box-shadow: rgb(0, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 5.0264s ease-in-out -4.25563s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(5.84136deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.11195px; transform-origin: center top; --base-angle: 19.63200410589475deg; --swing: 22.777761512946626deg; --base-length: 173.73535389608327%; height: 173.735%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.5709s ease-in-out -3.98459s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(19.632deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.31397px; transform-origin: center top; --base-angle: 19.840094319651136deg; --swing: 23.26780847709911deg; --base-length: 141.94129042359404%; height: 141.941%; background: linear-gradient(rgb(0, 255, 255) 10%, transparent 100%); box-shadow: rgb(0, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.62071s ease-in-out -0.288051s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(19.8401deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.16831px; transform-origin: center top; --base-angle: 26.613712987101078deg; --swing: 20.862648205473832deg; --base-length: 165.9903759553007%; height: 165.99%; background: linear-gradient(rgb(255, 255, 0) 10%, transparent 100%); box-shadow: rgb(255, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 4.54395s ease-in-out -3.55359s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(26.6137deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.15624px; transform-origin: center top; --base-angle: 39.014652745616125deg; --swing: 13.557778026195004deg; --base-length: 186.60737182058625%; height: 186.607%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.74147s ease-in-out -1.45947s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(39.0147deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.53185px; transform-origin: center top; --base-angle: 45.34982609890025deg; --swing: 14.759712841950133deg; --base-length: 125.8482160040545%; height: 125.848%; background: linear-gradient(rgb(0, 255, 0) 10%, transparent 100%); box-shadow: rgb(0, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 5.17953s ease-in-out -2.82766s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(45.3498deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.53471px; transform-origin: center top; --base-angle: 48.51078933909089deg; --swing: 19.87180760849511deg; --base-length: 122.18282846983027%; height: 122.183%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.20613s ease-in-out -3.48661s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(48.5108deg); pointer-events: none; z-index: 1;"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 17.5px; top: 959px; width: 339px; height: 41px; transform: rotate(0deg); z-index: 21; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: visible; font-family: Bangers; font-size: 100px; font-weight: bold; line-height: 1.2; letter-spacing: 0px; text-align: center; white-space: pre; margin: 0px; padding: 0px;">
+                                 <div style="transform: scale(1); transform-origin: center center; display: flex; flex-direction: column; align-items: center; justify-content: center; white-space: pre; width: max-content; height: auto; max-width: none; line-height: 1; margin: 0px; padding: 0px; box-sizing: border-box;">
+                                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
+                                       <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 0px; padding: 0px;"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 15px; top: 1000px; width: 339px; height: 41px; transform: rotate(0deg); z-index: 22; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: visible; font-family: Bangers; font-size: 100px; font-weight: bold; line-height: 1.2; letter-spacing: 0px; text-align: center; white-space: pre; margin: 0px; padding: 0px;">
+                                 <div style="transform: scale(1); transform-origin: center center; display: flex; flex-direction: column; align-items: center; justify-content: center; white-space: pre; width: max-content; height: auto; max-width: none; line-height: 1; margin: 0px; padding: 0px; box-sizing: border-box;">
+                                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
+                                       <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 0px; padding: 0px;"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 9px; top: 973px; width: 356px; height: 38px; transform: rotate(0deg); z-index: 23; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: visible; font-family: HuntersKPop; font-size: 100px; font-weight: bold; line-height: 1.2; letter-spacing: 0px; text-align: center; white-space: pre; margin: 0px; padding: 0px;">
+                                 <div style="transform: scale(0.316667); transform-origin: center center; display: flex; flex-direction: column; align-items: center; justify-content: center; white-space: pre; width: max-content; height: auto; max-width: none; line-height: 1; margin: 0px; padding: 0px; box-sizing: border-box;">
+                                    <div style="font-family: HuntersKPop; font-size: 100px; font-weight: bold; line-height: 1.2; letter-spacing: 0px; text-align: center; white-space: pre; margin: 0px; padding: 0px; color: rgb(255, 255, 255); paint-order: stroke; display: block; width: 100%;">
+Salón de <br>fiestas Don Alfonso</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 57px; top: 1050px; width: 270px; height: auto; min-height: 20px; transform: rotate(0deg); z-index: 24; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; font-family: Atma; font-size: 20px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 1; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(255, 255, 255);">
+C. Josefa Ortiz de Dominguez 1, 91637 El Chico, Ver.
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+
+
+<div class="absolute" style="top: 925px;width: 100%;height: 36px;transform: rotate(0deg);z-index: 25;opacity: 1;pointer-events: auto;">
+   <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+      <div style="width: 100%; height: 100%;">
+         <div style="width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: visible; font-family: Bangers; font-size: 100px; font-weight: bold; line-height: 1.2; letter-spacing: 0px; text-align: center; white-space: pre; margin: 0px; padding: 0px;">
+            <div style="transform: scale(0.3); transform-origin: center center; display: flex; flex-direction: column; align-items: center; justify-content: center; white-space: pre; width: max-content; height: auto; max-width: none; line-height: 1; margin: 0px; padding: 0px; box-sizing: border-box;">
+               <div style="font-family: Bangers;font-size: 87px;font-weight: bold;line-height: 0.2;letter-spacing: 0px;text-align: center;margin: 0px;padding: 0px;color: rgb(132, 3, 160);paint-order: stroke;-webkit-text-stroke: 5px rgb(255, 255, 255);display: block;width: 100%;">
+   sábado 16 de mayo 2:30 p.m.</div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+                     
+                     
+                     <div class="absolute" style="left: 63px; top: 888.5px; width: 271px; height: 35px; transform: rotate(0deg); z-index: 26; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: visible; font-family: Bangers; font-size: 100px; font-weight: bold; line-height: 1.2; letter-spacing: 0px; text-align: center; white-space: pre; margin: 0px; padding: 0px;">
+                                 <div style="transform: scale(0.291667); transform-origin: center center; display: flex; flex-direction: column; align-items: center; justify-content: center; white-space: pre; width: max-content; height: auto; max-width: none; line-height: 1; margin: 0px; padding: 0px; box-sizing: border-box;">
+                                    <div style="font-family: Bangers; font-size: 100px; font-weight: bold; line-height: 1.2; letter-spacing: 0px; text-align: center; white-space: pre; margin: 0px; padding: 0px; color: rgb(255, 255, 255); paint-order: stroke; display: block; width: 100%;">Te espero:</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 70px; top: 1120.61px; width: 250px; height: auto; min-height: 20px; transform: rotate(0deg); z-index: 27; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%;
+                               height: 100%; font-family: Atma; font-size: 20px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 1; background-color:
+                                transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: 
+                                contain; color: rgb(255, 255, 255);">Faltan:</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 64px; top: 1140px; width: 270px; height: 77px; transform: rotate(0deg); z-index: 28; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+
+
+                <center>
+                    <div class="text-center m-0">
+                        <div id="countdown" class="fspx_20 font_lo" style="font-family: Atma; font-size: 20px; color: rgb(255, 255, 255);""></div>
+                    </div><br>
+                </center>
+
+                           
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 20px; top: 1219px; width: 78px; height: 78px; transform: rotate(0deg); z-index: 29; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; overflow: hidden; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 1; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(0, 0, 0);"><img alt="element" draggable="false" 
+                                src="esfera.gif" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 18px; top: 1299.5px; width: 78px; height: 78px; transform: rotate(0deg); z-index: 30; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; overflow: hidden; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 1; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(0, 0, 0);"><img alt="element" draggable="false" 
+                                src="esfera2.gif" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: -39px; top: 1219px; width: 216px; height: 145px; transform: rotate(269.23deg); z-index: 31; opacity: 1; pointer-events: none;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div class="w-full h-full relative group overflow-visible pointer-events-none">
+                                 <div style="width: 100%; height: 100%; transform: rotate(0deg);">
+                                    <div style="width: 100%; height: 100%; overflow: visible; position: relative; pointer-events: none; --laser-opacity: 0.5; --laser-opacity-dim: 0.2;">
+                                       <style>
+                                          /* Animación que usa variables CSS para opacidad dinámica */
+                                          @keyframes laser-scan-dynamic { 
+                                          0% { 
+                                          transform: translateX(-50%) rotate(calc(var(--base-angle) - var(--swing))); 
+                                          opacity: var(--laser-opacity-dim);
+                                          height: var(--base-length);
+                                          } 
+                                          50% { 
+                                          opacity: var(--laser-opacity);
+                                          height: calc(var(--base-length) * 1.2);
+                                          }
+                                          100% { 
+                                          transform: translateX(-50%) rotate(calc(var(--base-angle) + var(--swing))); 
+                                          opacity: var(--laser-opacity-dim);
+                                          height: var(--base-length);
+                                          } 
+                                          }
+                                          @keyframes source-pulse {
+                                          0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.8; }
+                                          50% { transform: translate(-50%, -50%) scale(1.2); opacity: 1; }
+                                          }
+                                       </style>
+                                       <div style="position: absolute; top: 0px; left: 50%; width: 40px; height: 40px; border-radius: 50%; background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(255, 0, 255) 40%, transparent 70%); z-index: 20; animation: 0.5s ease 0s infinite alternate none running source-pulse; mix-blend-mode: screen;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.8502px; transform-origin: center top; --base-angle: -62.42147619767324deg; --swing: 23.46547785676355deg; --base-length: 134.8961241718953%; height: 134.896%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.35686s ease-in-out -3.01818s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-62.4215deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.77073px; transform-origin: center top; --base-angle: -56.376208006674844deg; --swing: 24.912191624720965deg; --base-length: 133.4153267022608%; height: 133.415%; background: linear-gradient(rgb(0, 255, 255) 10%, transparent 100%); box-shadow: rgb(0, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.63371s ease-in-out -2.82217s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-56.3762deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.90957px; transform-origin: center top; --base-angle: -41.48117804993139deg; --swing: 23.121287870768167deg; --base-length: 196.87223523071953%; height: 196.872%; background: linear-gradient(rgb(255, 255, 0) 10%, transparent 100%); box-shadow: rgb(255, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 4.89567s ease-in-out -4.91385s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-41.4812deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.76124px; transform-origin: center top; --base-angle: -37.098684823013755deg; --swing: 18.824058905358292deg; --base-length: 169.9945704643597%; height: 169.995%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.81361s ease-in-out -2.00178s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-37.0987deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.27393px; transform-origin: center top; --base-angle: -34.97087817963687deg; --swing: 14.09162658792264deg; --base-length: 127.39913936533006%; height: 127.399%; background: linear-gradient(rgb(0, 255, 0) 10%, transparent 100%); box-shadow: rgb(0, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 5.78644s ease-in-out -1.97005s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-34.9709deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.59429px; transform-origin: center top; --base-angle: -21.84810728506663deg; --swing: 14.523978202975414deg; --base-length: 191.90199916465485%; height: 191.902%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.44773s ease-in-out -2.18697s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-21.8481deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.92965px; transform-origin: center top; --base-angle: -17.40547953399075deg; --swing: 12.668675236469955deg; --base-length: 126.22365577717432%; height: 126.224%; background: linear-gradient(rgb(0, 255, 255) 10%, transparent 100%); box-shadow: rgb(0, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.98554s ease-in-out -3.00198s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-17.4055deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.50584px; transform-origin: center top; --base-angle: -10.443397395706297deg; --swing: 21.88474246010028deg; --base-length: 143.4059428814047%; height: 143.406%; background: linear-gradient(rgb(255, 255, 0) 10%, transparent 100%); box-shadow: rgb(255, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 5.61068s ease-in-out -0.334052s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-10.4434deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.06861px; transform-origin: center top; --base-angle: -0.8313049537045378deg; --swing: 19.596748682284414deg; --base-length: 191.81695665403862%; height: 191.817%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.79844s ease-in-out -2.41168s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(-0.831305deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.93118px; transform-origin: center top; --base-angle: 2.823300254722284deg; --swing: 24.944999049292996deg; --base-length: 187.01844765427333%; height: 187.018%; background: linear-gradient(rgb(0, 255, 0) 10%, transparent 100%); box-shadow: rgb(0, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 4.37573s ease-in-out -0.65007s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(2.8233deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.84607px; transform-origin: center top; --base-angle: 19.619364329882387deg; --swing: 21.59161191959764deg; --base-length: 144.77754308113862%; height: 144.778%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.12012s ease-in-out -0.804468s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(19.6194deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.80854px; transform-origin: center top; --base-angle: 21.37320633990688deg; --swing: 28.972317862450964deg; --base-length: 134.0578087165605%; height: 134.058%; background: linear-gradient(rgb(0, 255, 255) 10%, transparent 100%); box-shadow: rgb(0, 255, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 5.42611s ease-in-out -1.71207s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(21.3732deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 3.9795px; transform-origin: center top; --base-angle: 28.554827273777015deg; --swing: 19.01371915818795deg; --base-length: 188.54303152896077%; height: 188.543%; background: linear-gradient(rgb(255, 255, 0) 10%, transparent 100%); box-shadow: rgb(255, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 5.03462s ease-in-out -1.30514s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(28.5548deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.12001px; transform-origin: center top; --base-angle: 41.4480179011913deg; --swing: 11.254666824266188deg; --base-length: 164.27706487985824%; height: 164.277%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.36707s ease-in-out -4.22824s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(41.448deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 2.76332px; transform-origin: center top; --base-angle: 40.86450502893071deg; --swing: 20.310484372120293deg; --base-length: 160.60135042199784%; height: 160.601%; background: linear-gradient(rgb(0, 255, 0) 10%, transparent 100%); box-shadow: rgb(0, 255, 0) 0px 0px 4px; mix-blend-mode: normal; animation: 5.6642s ease-in-out -0.300382s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(40.8645deg); pointer-events: none; z-index: 1;"></div>
+                                       <div style="position: absolute; top: 10px; left: 50%; width: 1.66429px; transform-origin: center top; --base-angle: 50.01342794043602deg; --swing: 18.19509652829126deg; --base-length: 138.01555869448865%; height: 138.016%; background: linear-gradient(rgb(255, 0, 255) 10%, transparent 100%); box-shadow: rgb(255, 0, 255) 0px 0px 4px; mix-blend-mode: normal; animation: 4.19537s ease-in-out -0.714534s infinite alternate none running laser-scan-dynamic; transform: translateX(-50%) rotate(50.0134deg); pointer-events: none; z-index: 1;"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 59.5px; top: 1399.5px; width: 271px; height: 35px; transform: rotate(0deg); z-index: 32; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: visible; font-family: Bangers; font-size: 100px; font-weight: bold; line-height: 1.2; letter-spacing: 0px; text-align: center; white-space: pre; margin: 0px; padding: 0px;">
+                                 <div style="transform: scale(0.339806); transform-origin: center center; display: flex; flex-direction: column; align-items: center; justify-content: center; white-space: pre; width: max-content; height: auto; max-width: none; line-height: 1; margin: 0px; padding: 0px; box-sizing: border-box;">
+                                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
+                                       <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 0px; padding: 0px;"><span style="opacity: 0;">T</span><span style="opacity: 0;">E</span><span style="opacity: 0;"> </span><span style="opacity: 0;">e</span><span style="opacity: 0;">s</span><span style="opacity: 0;">p</span><span style="opacity: 0;">e</span><span style="opacity: 0;">r</span><span style="opacity: 0;">o</span><span style="opacity: 0;">,</span><span style="opacity: 0;"> </span><span style="opacity: 0;">n</span><span style="opacity: 0;">o</span><span style="opacity: 0;"> </span><span style="opacity: 0;">F</span><span style="opacity: 0;">a</span><span style="opacity: 0;">l</span><span style="opacity: 0;">t</span><span style="opacity: 0;">e</span><span style="opacity: 0;">s</span></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 48.5px; top: 1434.5px; width: 305px; height: auto; min-height: 20px; transform: rotate(0deg); z-index: 33; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; font-family: Atma; font-size: 44px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 1; background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 0px; padding: 0px; object-fit: contain; color: rgb(255, 255, 255);">
+                                Soy talla 6</div>
+                           </div>
+                        </div>
+                     </div>
+             
+                 
+                     
+                     
+                     <div class="absolute" style="left: 70px; top: 1500.5px;  width: 250px; height: 150px; transform: rotate(0deg); z-index: 36; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: visible; font-family: Bangers; font-size: 100px; font-weight: bold; line-height: 1.2; letter-spacing: 0px; text-align: center; white-space: pre; margin: 0px; padding: 0px;">
+                                 <div style="transform: scale(0.310559); transform-origin: center center; display: flex; flex-direction: column; align-items: center; justify-content: center; white-space: pre; width: max-content; height: auto; max-width: none; line-height: 1; margin: 0px; padding: 0px; box-sizing: border-box;">
+                                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
+                                       <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 0px; padding: 0px;"><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 0s infinite normal none running letter_jello;">T</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 0.1s infinite normal none running letter_jello;">E</span><span style="display: inline-block; width: 0.3em;">&nbsp;</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 0.3s infinite normal none running letter_jello;">E</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 0.4s infinite normal none running letter_jello;">S</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 0.5s infinite normal none running letter_jello;">P</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 0.6s infinite normal none running letter_jello;">E</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 0.7s infinite normal none running letter_jello;">R</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 0.8s infinite normal none running letter_jello;">O</span><span style="display: inline-block; width: 0.3em;">&nbsp;</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 1s infinite normal none running letter_jello;">E</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 1.1s infinite normal none running letter_jello;">N</span><span style="display: inline-block; width: 0.3em;">&nbsp;</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 1.3s infinite normal none running letter_jello;">M</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 1.4s infinite normal none running letter_jello;">I</span><span style="display: inline-block; width: 0.3em;">&nbsp;</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 1.6s infinite normal none running letter_jello;">F</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 1.7s infinite normal none running letter_jello;">I</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 1.8s infinite normal none running letter_jello;">E</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 1.9s infinite normal none running letter_jello;">S</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 2s infinite normal none running letter_jello;">T</span><span class="magic-char" style="color: rgb(236, 72, 153); paint-order: stroke; -webkit-text-stroke: 3px rgb(255, 255, 255); position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 1.5s ease-in-out 2.1s infinite normal none running letter_jello;">A</span></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--<div class="absolute" style="left: 49.5px; top: 1550.5px; width: 298px; height: 60px; transform: rotate(0deg); z-index: 37; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div class="w-full h-full flex flex-col items-center justify-center p-2"><a href="https://Sarahí .me" target="_blank" rel="noreferrer" class="hover:scale-105 active:scale-95 cursor-pointer pointer-events-auto" style="padding: 10px 24px; border-radius: 9999px; text-decoration: none; display: inline-block; transition: transform 0.2s; cursor: pointer; font-family: Montserrat; font-size: 12px; font-weight: bold; text-align: center; letter-spacing: 0.5px; background-color: rgb(254, 57, 218); color: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
+                                💎¡Yo quiero una Invitación!💎</a></div>
+                           </div>
+                        </div>
+                     </div>-->
+
+
+                     
+                     <div class="absolute" style="left: 198.5px; top: 906px; width: 250px; height: 150px; transform: rotate(90deg); z-index: 40; opacity: 1; pointer-events: none;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div class="w-full h-full relative group overflow-visible pointer-events-none">
+                                 <div style="width: 100%; height: 100%; transform: rotate(0deg);">
+                                    <div style="width: 100%; height: 100%; pointer-events: none; position: relative; overflow: visible;">
+                                       <style>
+                                          @keyframes spotlight-swing {
+                                          0% { transform: translateX(-50%) rotate(-15deg); }
+                                          100% { transform: translateX(-50%) rotate(15deg); }
+                                          }
+                                       </style>
+                                       <div style="position: absolute; top: -10px; left: 50%; transform: translateX(-50%); width: 40px; height: 20px; border-radius: 50%; background-color: rgb(255, 255, 255); box-shadow: rgb(255, 255, 255) 0px 0px 20px 5px; opacity: 1; z-index: 9999;"></div>
+                                       <div style="position: absolute; top: 0px; left: 50%; transform-origin: center top; width: 50%; height: 200%; background: linear-gradient(rgb(255, 255, 255) 0%, transparent 100%); clip-path: polygon(40% 0%, 60% 0%, 100% 100%, 0% 100%); opacity: 0.8; mix-blend-mode: normal; filter: blur(10px); animation: 2.75s ease-in-out 0s infinite alternate none running spotlight-swing; transform: translateX(-50%); z-index: 1;"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+               
+                     
+
+                     <div class="absolute" style="left: -58px; top: 936px; width: 250px; height: 150px; transform: rotate(-90deg); z-index: 42; opacity: 1; pointer-events: none;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div class="w-full h-full relative group overflow-visible pointer-events-none">
+                                 <div style="width: 100%; height: 100%; transform: rotate(0deg);">
+                                    <div style="width: 100%; height: 100%; pointer-events: none; position: relative; overflow: visible;">
+                                       <style>
+                                          @keyframes spotlight-swing {
+                                          0% { transform: translateX(-50%) rotate(-15deg); }
+                                          100% { transform: translateX(-50%) rotate(15deg); }
+                                          }
+                                       </style>
+                                       <div style="position: absolute; top: -10px; left: 50%; transform: translateX(-50%); width: 40px; height: 20px; border-radius: 50%; background-color: rgb(255, 255, 255); box-shadow: rgb(255, 255, 255) 0px 0px 20px 5px; opacity: 1; z-index: 9999;"></div>
+                                       <div style="position: absolute; top: 0px; left: 50%; transform-origin: center top; width: 50%; height: 200%; background: linear-gradient(rgb(255, 255, 255) 0%, transparent 100%); clip-path: polygon(40% 0%, 60% 0%, 100% 100%, 0% 100%); opacity: 0.8; mix-blend-mode: normal; filter: blur(10px); animation: 2.75s ease-in-out 0s infinite alternate none running spotlight-swing; transform: translateX(-50%); z-index: 1;"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: -1px; top: 884px; width: 388px; height: 218px; transform: rotate(0deg); z-index: 43; opacity: 1; pointer-events: none;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div class="w-full h-full relative group overflow-visible pointer-events-none">
+                                 <div style="width: 100%; height: 100%; transform: rotate(0deg);">
+                                    <div style="width: 100%; height: 100%; overflow: hidden; position: relative; pointer-events: none; --flash-opacity: 0.8;">
+                                       <style>
+                                          @keyframes camera-flash {
+                                          0% { opacity: 0; transform: scale(0.5); }
+                                          50% { opacity: var(--flash-opacity); transform: scale(1.5); }
+                                          100% { opacity: 0; transform: scale(1); }
+                                          }
+                                       </style>
+                                       <div style="position: absolute; left: 90.876%; top: 35.7749%; width: 100px; height: 100px; border-radius: 50%; background: radial-gradient(circle, white 0%, transparent 70%); opacity: 0; animation: 0.207646s ease-out 1.5944s infinite normal none running camera-flash; mix-blend-mode: screen;"></div>
+                                       <div style="position: absolute; left: 95.0586%; top: 56.59%; width: 100px; height: 100px; border-radius: 50%; background: radial-gradient(circle, white 0%, transparent 70%); opacity: 0; animation: 0.235772s ease-out 1.35037s infinite normal none running camera-flash; mix-blend-mode: screen;"></div>
+                                       <div style="position: absolute; left: 35.107%; top: 2.46703%; width: 100px; height: 100px; border-radius: 50%; background: radial-gradient(circle, white 0%, transparent 70%); opacity: 0; animation: 0.127967s ease-out 0.721662s infinite normal none running camera-flash; mix-blend-mode: screen;"></div>
+                                       <div style="position: absolute; left: 76.8047%; top: 78.6287%; width: 100px; height: 100px; border-radius: 50%; background: radial-gradient(circle, white 0%, transparent 70%); opacity: 0; animation: 0.102049s ease-out 0.718684s infinite normal none running camera-flash; mix-blend-mode: screen;"></div>
+                                       <div style="position: absolute; left: 20.0831%; top: 48.7784%; width: 100px; height: 100px; border-radius: 50%; background: radial-gradient(circle, white 0%, transparent 70%); opacity: 0; animation: 0.157548s ease-out 0.624062s infinite normal none running camera-flash; mix-blend-mode: screen;"></div>
+                                       <div style="position: absolute; left: 64.0761%; top: 5.64724%; width: 100px; height: 100px; border-radius: 50%; background: radial-gradient(circle, white 0%, transparent 70%); opacity: 0; animation: 0.111127s ease-out 0.131942s infinite normal none running camera-flash; mix-blend-mode: screen;"></div>
+                                       <div style="position: absolute; left: 19.3388%; top: 67.5734%; width: 100px; height: 100px; border-radius: 50%; background: radial-gradient(circle, white 0%, transparent 70%); opacity: 0; animation: 0.387704s ease-out 1.47662s infinite normal none running camera-flash; mix-blend-mode: screen;"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 113.5px; top: 1230px; width: 242px; height: 56px; transform: rotate(0deg); z-index: 44; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; position: relative;">
+                                 <a href="https://api.whatsapp.com/send?phone=+5212281649152&amp;text=Hola,%20vi%20la%20invitaci%C3%B3n%20y%20confirmo%20mi%20asistencia" target="_blank" style="width: 100%; height: 100%; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 1; background-color: rgb(236, 72, 153); border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 16px; padding: 0px; object-fit: contain; color: rgb(0, 0, 0); display: flex; align-items: center; justify-content: center; cursor: pointer;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle w-4 h-4 mr-2 flex-shrink-0" aria-hidden="true">
+                                       <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path>
+                                    </svg>
+                                    Confirmar
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 116px; top: 1310.5px; width: 242px; height: 56px; transform: rotate(0deg); z-index: 45; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: hidden; opacity: 0;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; position: relative;">
+                                 <a href="https://maps.app.goo.gl/PMYnGqEyJReT1btR9" target="_blank" style="width: 100%; height: 100%; font-family: Atma; font-size: 24px; text-align: center; letter-spacing: 0px; line-height: 1.2; opacity: 1; 
+                                 background-color: rgb(236, 72, 153); border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 16px; 
+                                 padding: 0px; object-fit: contain; color: rgb(0, 0, 0); display: flex; align-items: center; justify-content: center; cursor: pointer;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-4 h-4 mr-2 flex-shrink-0" aria-hidden="true">
+                                       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                                       <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                    Ver Ubicación
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="absolute" style="left: 193px; top: 136.339px; width: 180px; height: 332.308px; transform: rotate(0deg); z-index: 46; opacity: 1; pointer-events: auto;">
+                        <div style="width: 100%; height: 100%; visibility: visible; opacity: 1; animation: 2s ease-in-out 0s infinite normal none running wiggle;">
+                           <div style="width: 100%; height: 100%;">
+                              <div style="width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: visible; font-family: HuntersKPop; font-size: 100px; font-weight: bold; line-height: 1; letter-spacing: 0px; text-align: center; white-space: pre; margin: 0px; padding: 0px; filter: drop-shadow(rgb(34, 197, 94) -2px 2px 0px);">
+                                 <div style="transform: scale(2.85714); transform-origin: center center; display: flex; flex-direction: column; align-items: center; justify-content: center; white-space: pre; width: max-content; height: auto; max-width: none; line-height: 1; margin: 0px; padding: 0px; box-sizing: border-box;">
+                                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
+                                       <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 0px; padding: 0px;"><span style="color: rgb(255, 255, 255); paint-order: stroke; position: relative; z-index: 1; display: inline-block; vertical-align: middle; animation: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal both running letter-pop, 1.5s ease-in-out 0.6s infinite normal none running letter_jello;" 
+                                          class="magic-char">5</span></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+       
+
+
+
+              
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+         <div class="fixed bottom-6 right-6 z-[90]">
+             <button id="audioBtn"
+                 class="w-12 h-12 backdrop-blur-md rounded-full shadow-lg flex items-center justify-center transition-transform active:scale-90"
+                 style="background-color: rgb(255, 255, 255); color: rgb(236, 72, 153);">
+         
+                 <div class="relative flex items-center justify-center w-full h-full">
+         
+                     <!-- Efecto ping -->
+                     <span id="pingEffect"
+                         class="absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-20 animate-ping">
+                     </span>
+         
+                     <!-- Icono PLAY -->
+                
+                     <svg id="playIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play w-5 h-5 ml-1" aria-hidden="true"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg>
+         
+             
+
+                     <svg id="pauseIcon" xmlns="http://www.w3.org/2000/svg" 
+                     width="24" height="24" viewBox="0 0 24 24" fill="none" 
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+                     stroke-linejoin="round" class="lucide lucide-volume2 lucide-volume-2 w-5 h-5 relative z-10 hidden" aria-hidden="true">
+                     <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"></path><path d="M16 9a5 5 0 0 1 0 6"></path><path d="M19.364 18.364a9 9 0 0 0 0-12.728"></path></svg>
+         
+                 </div>
+             </button>
+         </div>
+         
+         <audio id="bgAudio" loop>
+             <source src="song.mp3" type="audio/mpeg">
+         </audio>
+
+
+
+      </div>
+   </div>
+
+
+<script>
+
+
+(function() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const el = entry.target;
+      if (entry.isIntersecting) {
+        el.style.visibility = 'visible';
+        el.style.opacity = '1';
+        el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        el.style.transform = 'translateY(0)';
+      } else {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(20px)';
+        el.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+        setTimeout(() => {
+          if (el.style.opacity === '0') el.style.visibility = 'hidden';
+        }, 400);
+      }
+    });
+  }, {
+    root: document.querySelector('.scrollbar-hide') || null,
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  });
+
+  document.querySelectorAll('.absolute').forEach(wrapper => {
+    const inner = wrapper.querySelector('[style]');
+    if (inner) {
+      inner.style.transform = 'translateY(20px)';
+      observer.observe(inner);
+    }
+  });
+
+  document.querySelectorAll('[style*="animation"][style*="fadeIn"]').forEach(el => observer.unobserve(el));
+})();
+
+
+var targetDate = new Date("May 30, 2026 20:00:00").getTime();
+var countdownTimer = countdown(
+    targetDate,
+    function(ts) {
+        var countdownText = `
+            <div class="time-container mr_5 p_2 ">
+                <span class="fspx_40">${ts.days}</span>
+                <p>Días</p>
+            </div>
+            <div class="time-container mr_5 p_2 ">
+                <span class="fspx_40">${ts.hours}</span>
+                <p>Horas</p>
+            </div>
+            <div class="time-container mr_5 p_2 ">
+                <span class="fspx_40">${ts.minutes}</span>
+                <p>Minutos</p>
+            </div>
+            <div class="time-container p_2 ">
+                <span class="fspx_40">${ts.seconds}</span>
+                <p>Segundos</p>
+            </div>
+        `;
+
+        document.getElementById("countdown").innerHTML = countdownText;
+    },
+    countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS
+);
+
+
+
+
+const audio = document.getElementById("bgAudio");
+const btn = document.getElementById("audioBtn");
+const playIcon = document.getElementById("playIcon");
+const pauseIcon = document.getElementById("pauseIcon");
+btn.addEventListener("click", () => {
+    if (audio.paused) {
+        audio.play();
+        playIcon.classList.add("hidden");
+        pauseIcon.classList.remove("hidden");
+    } else {
+        audio.pause();
+        pauseIcon.classList.add("hidden");
+        playIcon.classList.remove("hidden");
+    }
+});
+
+    
+</script>
+
+</body>
+</html>
